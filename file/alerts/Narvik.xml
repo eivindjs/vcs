@@ -1,0 +1,10 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;alerts customer=&quot;Narvik&quot;&gt;
+  &lt;alert damcluster=&quot;5003&quot; subsystem=&quot;2&quot;&gt;
+      &lt;sms oper=&quot;add&quot; number=&quot;222222&quot; /&gt; 
+  &lt;/alert&gt;
+  &lt;alert hostname=&quot;narvik&quot; probe=&quot;22323&quot;&gt;
+      &lt;marval-pp oper=&quot;add&quot;  level=&quot;DEFAULT&quot;  /&gt; 
+      &lt;log oper=&quot;add&quot; file  level=&quot;3&quot;  /&gt; 
+  &lt;/alert&gt;
+&lt;/alerts&gt;
