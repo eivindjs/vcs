@@ -68,5 +68,5 @@ $('#search').keyup(function() {
 
 
 </script>
-<script type="text/javascript" src="/bachelor2015/js/alert.js"></script>
+<script type="text/javascript" src="/vcs/js/alert.js"></script>
 {include file='../shared/footer.tpl'}

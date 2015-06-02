@@ -146,24 +146,24 @@
 	
 </div>
 
-<script type="text/javascript" src="/bachelor2015/js/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="/vcs/js/jquery-1.11.2.js"></script>
 <script type="text/javascript">
 
 $('#createPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/manualsource/create';
+    window.location = '/vcs/manualsource/create';
 });
 $('#recentlyChangedPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/manualsource/recentlychanged';
+    window.location = '/vcs/manualsource/recentlychanged';
 });
 $('#historyPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/manualsource/filehistory';
+    window.location = '/vcs/manualsource/filehistory';
 });
 $('#deletedPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/manualsource/restoredeleted';
+    window.location = '/vcs/manualsource/restoredeleted';
 });
 
 //Deletes the selected file, sends it to the "deleted" table.

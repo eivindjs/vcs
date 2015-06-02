@@ -15,13 +15,13 @@
    ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <!--<div class="text-left">&#0169; EJS</div> -->
-<script src="/bachelor2015/js/bootstrap.js"></script>
+<script src="/vcs/js/bootstrap.js"></script>
 
 <!-- Custom javascript files containing scripts used around the page -->
-<script type="text/javascript" src="/bachelor2015/js/shared.js"></script>
-<script type="text/javascript" src="/bachelor2015/js/manualsource.js"></script>
-<script type="text/javascript" src="/bachelor2015/js/alert.js"></script>
-<script type="text/javascript" src="/bachelor2015/js/swatch.js"></script>
-<script type="text/javascript" src="/bachelor2015/js/home.js"></script>
+<script type="text/javascript" src="/vcs/js/shared.js"></script>
+<script type="text/javascript" src="/vcs/js/manualsource.js"></script>
+<script type="text/javascript" src="/vcs/js/alert.js"></script>
+<script type="text/javascript" src="/vcs/js/swatch.js"></script>
+<script type="text/javascript" src="/vcs/js/home.js"></script>
 
 </html>

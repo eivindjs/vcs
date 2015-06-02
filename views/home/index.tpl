@@ -18,7 +18,7 @@
 			<br /><b> 3. Swatch</b><br/>
 			Here you can create, check file history, restore deleted and recently changed files.
 			<br />
-					<br/><a href="/bachelor2015/Brukerveiledning.pdf" target="_blank">Norwegian user manual</a>
+					<br/><a href="/vcs/Brukerveiledning.pdf" target="_blank">Norwegian user manual</a>
 			<br/><br/><b> For questions, 
 			please contact administrator something@basefarm.com
 			</b>

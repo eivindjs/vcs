@@ -149,26 +149,26 @@
 
 </div>
 
-<script type="text/javascript" src="/bachelor2015/js/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="/vcs/js/jquery-1.11.2.js"></script>
 <script type="text/javascript">
 
 
 
 $('#createPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/swatch/create';
+    window.location = '/vcs/swatch/create';
 });
 $('#recentlyChangedPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/swatch/recentlychanged';
+    window.location = '/vcs/swatch/recentlychanged';
 });
 $('#historyPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/swatch/filehistory';
+    window.location = '/vcs/swatch/filehistory';
 });
 $('#deletedPanel').click(function(e) {
     e.preventDefault();
-    window.location = '/bachelor2015/swatch/restoredeleted';
+    window.location = '/vcs/swatch/restoredeleted';
 });
 
 
