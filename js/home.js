@@ -27,7 +27,7 @@ var home = {
 					$.ajax({
 						type: 'POST', 
 						contentType: "application/json",
-						url: '/bachelor2015/home/LoginWithLDAP',
+						url: '/vcs/home/LoginWithLDAP',
 						dataType: "json", 		
 						data: JSON.stringify(data), 
 						success: function(response){	
@@ -41,7 +41,7 @@ var home = {
 							return false;
 						}
 						//Success, you are getting redirected to the index site
-						window.location.href = "/bachelor2015/home/index";
+						window.location.href = "/vcs/home/index";
 
 							
 						},
@@ -73,7 +73,7 @@ var home = {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/home/createAlertAction',
+				url: '/vcs/home/createAlertAction',
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(response){	
@@ -124,7 +124,7 @@ var home = {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/home/deleteAlertAction',
+				url: '/vcs/home/deleteAlertAction',
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(response){

@@ -46,7 +46,7 @@ var createFile = function(url, filetype){
 	$.ajax({
 		type: 'POST', 
 		contentType: "application/json",
-		url: '/bachelor2015/' + url,
+		url: '/vcs/' + url,
 		dataType: "json", 		
 		data: JSON.stringify(data), 
 		success: function(response) {
@@ -108,7 +108,7 @@ var edit = {
 		$.ajax({
 			type: 'POST', 
 			contentType: "application/json",
-			url: '/bachelor2015/' + url,
+			url: '/vcs/' + url,
 			dataType: "json", 		
 			data: JSON.stringify(data), 
 			success: function(response){
@@ -173,7 +173,7 @@ var edit = {
 		$.ajax({
 			type: 'POST', 
 			contentType: "application/json",
-			url: '/bachelor2015/' + url,
+			url: '/vcs/' + url,
 			dataType: "json", 		
 			data: JSON.stringify(data), 
 			success: function(response) {
@@ -240,7 +240,7 @@ var fileHistory = {
 				 $.ajax({
 						type: 'POST', 
 						contentType: "application/json",
-						url: '/bachelor2015/manualsource/calculateDiff',
+						url: '/vcs/manualsource/calculateDiff',
 						dataType: "json", 		
 						data: JSON.stringify(data), 
 						success: function(response) {
@@ -264,7 +264,7 @@ var fileHistory = {
 			$.ajax({
 				type: 'POST',
 				contentType: "application/json",
-				url: '/bachelor2015/' + url,
+				url: '/vcs/' + url,
 				data: $fileid,
 				dataType: 'json',
 				success: function(data){
@@ -365,7 +365,7 @@ var index = {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/manualsource/getFile',
+				url: '/vcs/manualsource/getFile',
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(data){
@@ -405,7 +405,7 @@ var index = {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/manualsource/getFile',
+				url: '/vcs/manualsource/getFile',
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(response){
@@ -470,7 +470,7 @@ var restoreDeleted = {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/' + url,
+				url: '/vcs/' + url,
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(response){
@@ -517,7 +517,7 @@ var restoreDeleted = {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/' + url,
+				url: '/vcs/' + url,
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(response){
@@ -554,7 +554,7 @@ var createNewBasedOn = {
 			var $row = $(value).closest("tr");
 			var id = $row.find(".eID").text();
 			if (confirm("Are you sure you want create a new file based on this file?") == true) {
-			window.location.href = "/bachelor2015/" + url + id;
+			window.location.href = "/vcs/" + url + id;
 		} else {
 			return false;
 		}
@@ -577,7 +577,7 @@ var view = {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/manualsource/getFileView',
+				url: '/vcs/manualsource/getFileView',
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(data){
@@ -601,7 +601,7 @@ var unlock = function(id) {
 			$.ajax({
 				type: 'POST', 
 				contentType: "application/json",
-				url: '/bachelor2015/manualsource/unlockFile',
+				url: '/vcs/manualsource/unlockFile',
 				dataType: "json", 		
 				data: JSON.stringify(data), 
 				success: function(data){	

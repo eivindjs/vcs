@@ -93,7 +93,7 @@ var createAlert = {
 		$.ajax({
 			type: 'POST', 
 			contentType: "application/json",
-			url: '/bachelor2015/alert/alertActions',
+			url: '/vcs/alert/alertActions',
 			dataType: 'json', 		
 			success: function(data) {
 				for(var i = 0; i < data.length; i++)
@@ -111,7 +111,7 @@ var createAlert = {
 		$.ajax({
 			type: 'POST', 
 			contentType: "application/json",
-			url: '/bachelor2015/alert/ldapSearch',
+			url: '/vcs/alert/ldapSearch',
 			dataType: 'json', 		
 			success: function(data) {
 				
